@@ -15,7 +15,7 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-const siteUrl = "https://nelsun-tea.vercel.app";
+const siteUrl = "https://nelsun-portfolio.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
