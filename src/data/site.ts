@@ -176,6 +176,25 @@ export const products = [
   },
 ];
 
+/** The three portfolio lines a buyer can tick on the enquiry form. */
+export const enquiryOptions = [
+  {
+    id: "bulk",
+    label: "Bulk CTC & Garden Supply",
+    detail: "BOPSM Assam CTC black tea · 22kg / 35kg paper & poly sacks · 20ft / 40ft HC container",
+  },
+  {
+    id: "retail",
+    label: "Retail & Private Label (OEM)",
+    detail: "250g brand-printed pouches · custom weight packets & jars · contract packing",
+  },
+  {
+    id: "jar",
+    label: "Reusable Storage Jar",
+    detail: "Air-tight red screw cap jar · premium CTC tea blend, rich aroma and deep colour",
+  },
+];
+
 export const specs = {
   columns: ["Grade / Line", "Typical format", "Export packing"],
   rows: [
