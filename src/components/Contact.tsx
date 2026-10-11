@@ -15,10 +15,10 @@ export default function Contact() {
           <div>
             <SectionHeading
               eyebrow="Contact Us"
-              title="Let's talk"
-              titleAccent="volume and spec."
+              title="Tell us what"
+              titleAccent="you need."
               tone="light"
-              intro="Direct from origin, direct to the decision maker. Reach us by phone, WhatsApp or email — or use the enquiry form and we will reply with a quote."
+              intro="Call us, WhatsApp us or send an email. Or fill the form below and we will send you a price."
             />
 
             <div className="mt-10 space-y-px overflow-hidden rounded-sm border border-cream/15">
@@ -60,9 +60,9 @@ export default function Contact() {
 
             <Reveal delay={0.1}>
               <p className="mt-8 text-sm leading-relaxed text-cream/55">
-                Sourcing region:{" "}
-                <span className="text-leaf-soft">{company.origin}</span> · Export
-                packing: 22 kg / 35 kg sacks · Container: 20ft / 40ft HC
+                Our tea comes from{" "}
+                <span className="text-leaf-soft">{company.origin}</span> · Packed
+                in 22 kg / 36 kg sacks
               </p>
             </Reveal>
           </div>

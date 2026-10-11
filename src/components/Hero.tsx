@@ -36,9 +36,8 @@ export default function Hero() {
           </h1>
 
           <p className="mt-7 max-w-2xl text-base leading-relaxed text-cream/75 sm:text-[1.0625rem]">
-            A vertically integrated tea manufacturer, blender and global bulk
-            supplier of high-grade BOPSM CTC black tea — with end-to-end private
-            label and contract packing under one roof.
+            We make, blend and supply CTC black tea in bulk — and we can pack
+            it in your own brand too. All done in one place.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">

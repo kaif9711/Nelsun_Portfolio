@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     template: "%s · Nelsun Tea Company",
   },
   description:
-    "Nelsun Tea Company is a vertically integrated tea manufacturer, blender and global bulk supplier headquartered in Delhi, India — specialising in BOPSM Assam CTC black tea, bulk container export and private label packaging.",
+    "Nelsun Tea Company makes, blends and supplies tea in bulk from Delhi, India. We deal in BOPSM Assam CTC black tea, container exports and packing tea in your own brand.",
   keywords: [
     "Assam CTC tea exporter",
     "BOPSM black tea",
@@ -39,14 +39,14 @@ export const metadata: Metadata = {
     siteName: "Nelsun Tea Company",
     title: "Nelsun Tea Company — Global Export & Private Label Tea Solutions",
     description:
-      "High-grade BOPSM Assam CTC black tea, green teas and custom blends. Bulk container export and end-to-end private label packaging, direct from origin.",
+      "Good quality BOPSM Assam CTC black tea, green teas and custom blends. Bulk container exports and packing in your own brand, straight from the garden.",
     images: [{ url: "/images/hero-plantation.jpg", width: 2200, height: 1467 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Nelsun Tea Company — Global Export & Private Label Tea Solutions",
     description:
-      "High-grade BOPSM Assam CTC black tea, green teas and custom blends. Bulk container export and private label packaging, direct from origin.",
+      "Good quality BOPSM Assam CTC black tea, green teas and custom blends. Bulk container exports and packing in your own brand, straight from the garden.",
     images: ["/images/hero-plantation.jpg"],
   },
   icons: {
@@ -64,7 +64,7 @@ const organisationSchema = {
   name: "Nelsun Tea Company",
   url: siteUrl,
   description:
-    "Vertically integrated tea manufacturer, blender and global bulk supplier of BOPSM Assam CTC black tea, green teas and custom blends.",
+    "Tea maker, blender and bulk supplier of BOPSM Assam CTC black tea, green teas and custom blends.",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Delhi",

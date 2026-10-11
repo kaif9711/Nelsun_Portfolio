@@ -7,7 +7,6 @@ import Journey from "@/components/Journey";
 import Marquee from "@/components/Marquee";
 import Nav from "@/components/Nav";
 import Products from "@/components/Products";
-import Team from "@/components/Team";
 import Vision from "@/components/Vision";
 import WhyNelsun from "@/components/WhyNelsun";
 
@@ -24,7 +23,6 @@ export default function Home() {
         <WhyNelsun />
         <Journey />
         <Vision />
-        <Team />
         <Contact />
       </main>
       <Footer />

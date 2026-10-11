@@ -137,8 +137,8 @@ export default function EnquiryForm() {
         </span>
         <h3 className="mt-6 text-2xl text-cream">Enquiry sent</h3>
         <p className="mt-3 max-w-sm text-sm leading-relaxed text-cream/60">
-          Thank you — your enquiry is with our team. We will come back to you
-          with pricing, samples and a packing plan. For anything urgent, call{" "}
+          Thank you. Our team has your message and will get back to you with
+          prices, samples and packing details. If it is urgent, call{" "}
           <a
             href={`tel:${company.phones[0].replace(/\s/g, "")}`}
             className="text-leaf-soft underline decoration-leaf/40 underline-offset-4"
@@ -167,8 +167,8 @@ export default function EnquiryForm() {
     >
       <h3 className="text-2xl text-cream">Send an enquiry</h3>
       <p className="mt-2 text-sm leading-relaxed text-cream/60">
-        Tell us which line you need. We will come back with pricing, samples and
-        a packing plan.
+        Tell us what you need and we will send you prices, samples and packing
+        details.
       </p>
 
       <div className="mt-7 grid gap-5 sm:grid-cols-2">
@@ -224,7 +224,7 @@ export default function EnquiryForm() {
       {/* Product enquiry — checkboxes for the three portfolio lines */}
       <fieldset className="mt-7">
         <legend className="mb-3 text-[0.625rem] font-semibold uppercase tracking-[0.18em] text-cream/55">
-          Product enquiry
+          What are you looking for
           <span className="ml-1.5 text-leaf-soft" aria-hidden>
             *
           </span>
@@ -280,7 +280,7 @@ export default function EnquiryForm() {
             rows={4}
             value={form.details}
             onChange={(e) => set("details")(e.target.value)}
-            placeholder="Volume, target cup profile, packing spec, timelines, sample requirements…"
+            placeholder="How much tea you need, the taste you want, pack sizes, when you need it, samples…"
             className={`${inputClass} resize-y`}
           />
         </Field>

@@ -13,9 +13,9 @@ export default function Products() {
       <div className="relative mx-auto max-w-[82rem] px-5 sm:px-8">
         <SectionHeading
           eyebrow="Our Portfolio"
-          title="Two supply tracks,"
-          titleAccent="built for your model."
-          intro="Buy it bulk and blend it yourself, or hand us your artwork and receive retail-ready cases. Both run on the same Assam origin and the same quality file."
+          title="Two ways to buy,"
+          titleAccent="pick what suits you."
+          intro="Buy in bulk and blend it yourself, or send us your design and get packs ready for the shelf. Same Assam tea, same quality, either way."
         />
 
         {/* --- Tracks --- */}

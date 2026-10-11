@@ -10,9 +10,9 @@ export default function Footer() {
           <div>
             <Logo tone="light" />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-cream/55">
-              {company.strapline}. High-grade BOPSM Assam CTC black tea, green
-              teas and custom botanical blends — bulk export and private label,
-              direct from origin.
+              {company.strapline}. BOPSM Assam CTC black tea, green teas and
+              custom blends — sold in bulk or packed in your own brand, straight
+              from the garden.
             </p>
           </div>
 

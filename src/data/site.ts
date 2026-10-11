@@ -22,14 +22,12 @@ export const navLinks = [
   { label: "Products", href: "#products" },
   { label: "Why Nelsun", href: "#why" },
   { label: "Journey", href: "#journey" },
-  { label: "Team", href: "#team" },
 ];
 
 export const heroStats = [
   { value: "Assam", label: "Direct garden origin" },
-  { value: "BOPSM", label: "CTC black tea speciality" },
-  { value: "22 / 35 kg", label: "Paper & poly sacks" },
-  { value: "20ft / 40ft HC", label: "Container capacity" },
+  { value: "BOPSM/BOP/BP", label: "CTC black tea speciality" },
+  { value: "22 / 36 kg", label: "Paper & poly sacks" },
 ];
 
 export const marqueeItems = [
@@ -44,75 +42,75 @@ export const marqueeItems = [
 ];
 
 export const aboutParagraphs = [
-  "Nelsun Tea Company is a vertically integrated tea manufacturer, blender, and global bulk supplier headquartered in Delhi, India. Sourced directly from the lush, high-altitude tea gardens of Assam, we specialize in processing and distributing fresh, high-grade CTC black teas — principally BOPSM (Broken Orange Pekoe Small Medium) — alongside specialty green teas and custom botanical blends.",
-  "Driven by a commitment to origin authenticity and supply chain scale, Nelsun serves a diverse global client base ranging from bulk importers, repackers, and commercial brand owners to retail chains. We offer comprehensive supply capabilities, including multi-ton bulk container shipments (22 kg / 35 kg paper sacks) and end-to-end private label / packaged retail solutions, including our signature 250g consumer pouches.",
-  "By combining strict garden-level quality selection with modern processing standards, Nelsun ensures batch-to-batch consistency, full traceability, and competitive direct-from-origin pricing.",
+  "Nelsun Tea Company makes, blends and supplies tea in bulk. We are based in Delhi, India, and we buy our tea straight from the gardens of Assam. Our main product is CTC black tea. We also do green tea and custom blends.",
+  "We sell to buyers all over the world — importers, repackers, brands and retail chains. You can order tea in bulk (22 kg or 36 kg sacks, by the container) or have it packed in your own branded packs, like our 250g pouches.",
+  "We pick our tea carefully at the garden and process it in clean, modern facilities. So every batch tastes the same, you can trace where it came from, and the price stays low because we buy at the source.",
 ];
 
 export const aboutFacts = [
-  { label: "Headquarters", value: "Delhi, India" },
-  { label: "Sourcing region", value: "Assam tea gardens" },
-  { label: "Core grade", value: "BOPSM CTC black tea" },
-  { label: "Serving", value: "Importers, repackers, brand owners, retail chains" },
+  { label: "Based in", value: "Delhi, India" },
+  { label: "Tea comes from", value: "Assam tea gardens" },
+  { label: "Main product", value: "CTC black tea" },
+  { label: "We sell to", value: "Importers, repackers, brands, retail chains" },
 ];
 
 export const capabilities = [
   {
-    title: "Direct Assam Sourcing",
-    body: "Sourced directly from premier Assam tea gardens, ensuring fresh leaf origin and authentic regional flavor profiles.",
+    title: "Tea Straight From Assam",
+    body: "We buy directly from the best tea gardens in Assam. Fresh leaf, real Assam taste, no middlemen.",
     icon: "leaf",
   },
   {
-    title: "Custom Blending & Flavor Development",
-    body: "Our experienced blenders formulate bespoke tea recipes to match specific target profiles, cup strengths, and regional market preferences.",
+    title: "Custom Blends",
+    body: "Tell us the taste and strength you want. Our blenders will mix a tea that matches it.",
     icon: "beaker",
   },
   {
-    title: "High Volume BOPSM Production",
-    body: "Specializing in large quantities of high-grade BOPSM CTC black tea, delivering superior strength, bright liquor, and rich maltiness.",
+    title: "Large Quantities",
+    body: "We make high-grade CTC black tea in big volumes. Strong taste, bright colour, rich and malty.",
     icon: "factory",
   },
   {
-    title: "Private Labeling",
-    body: "Brand-printed flexible pouches and custom retail packaging for premium loose-leaf lines, built to your artwork and spec.",
+    title: "Your Own Brand",
+    body: "We print your design on pouches and packs. Send us your artwork and we handle the rest.",
     icon: "tag",
   },
   {
-    title: "Export Ready",
-    body: "Equipped for bulk packaging, custom blending, and international container-load shipments with reliable fulfillment schedules.",
+    title: "Ready To Export",
+    body: "We pack, blend and ship full containers anywhere in the world, on time.",
     icon: "ship",
   },
   {
-    title: "Contract Packing",
-    body: "Complete contract packing services across custom weight packets, jars, and consumer pouches — end to end, under one roof.",
+    title: "Packing Service",
+    body: "We pack your tea into any size packet, jar or pouch you need — all done in one place.",
     icon: "package",
   },
 ] as const;
 
 export const whyNelsun = [
   {
-    title: "Direct Garden-Fresh Sourcing",
-    body: "Sourced directly from premier tea estates in Assam, ensuring authentic origin, superior leaf strength, bright liquor, and fresh batch consistency.",
+    title: "Fresh From The Garden",
+    body: "Our tea comes straight from top Assam estates. Strong leaf, bright colour, and every batch tastes the same.",
   },
   {
-    title: "High-Volume Bulk Export Capabilities",
-    body: "Equipped to handle large-scale orders — from multi-ton trial lots to full container loads (20ft / 40ft HC) — with reliable fulfillment schedules.",
+    title: "Big Orders, No Problem",
+    body: "Start with a small trial lot or order full containers. We handle both and we deliver on time.",
   },
   {
-    title: "Competitive Direct-from-Origin Pricing",
-    body: "By optimizing origin purchasing and streamlining processing, we provide cost-effective bulk rates without compromising on grade or quality.",
+    title: "Better Prices",
+    body: "We buy at the source and keep things simple, so you get a good bulk price without dropping quality.",
   },
   {
-    title: "Supply Chain Reliability & Traceability",
-    body: "Robust inventory management and end-to-end batch traceability guarantee on-time port dispatches and uninterrupted supply for your brand.",
+    title: "Reliable Supply",
+    body: "We keep good stock and track every batch. Your shipments leave on time and your supply never stops.",
   },
   {
-    title: "Tailored Blending & Custom Packaging",
-    body: "Flexible B2B services including specialized grade sizing (BOPSM, CTC brokens, green tea, herbal infusions), custom flavor blending, and private-label packaging options.",
+    title: "Blends And Packing To Order",
+    body: "Pick your grade — CTC, brokens, green tea or herbal. We can blend it your way and pack it in your brand.",
   },
   {
-    title: "Strict International Quality Compliance",
-    body: "Processed under hygienic standards adhering to global MRL (Maximum Residue Limits), food safety guidelines, and export clearance documentation.",
+    title: "Meets Export Rules",
+    body: "We follow clean processing and global food safety rules, and we handle all the export paperwork.",
   },
 ];
 
@@ -122,14 +120,13 @@ export const productTracks = [
     kicker: "Track 01",
     title: "Bulk CTC & Garden Supply",
     summary:
-      "Multi-ton shipments of high-grade Assam CTC, packed at origin and loaded to container for direct export.",
+      "Tea by the ton. We pack it at the garden and load it straight into your container.",
     image: "/images/branded-sack.jpg",
     imageAlt: "Nelsun branded bulk tea sack",
     points: [
       "BOPSM Assam CTC Black Tea",
-      "22 kg / 35 kg paper & poly sacks",
-      "20ft / 40ft HC container capacity",
-      "Multi-ton trial lots to full container loads",
+      "22 kg / 36 kg paper & poly sacks",
+      "Small trial lots or full containers",
     ],
   },
   {
@@ -137,14 +134,14 @@ export const productTracks = [
     kicker: "Track 02",
     title: "Retail & Private Label (OEM)",
     summary:
-      "Your brand, our origin. Brand-printed flexible packaging and contract packing for retail-ready tea lines.",
+      "Your brand on our tea. We print your packs and fill them, ready for the shelf.",
     image: "/images/pouches-tall.jpg",
     imageAlt: "Nelsun brand-printed retail tea pouches",
     points: [
-      "250g brand-printed pouches",
-      "Custom weight packets & jars",
-      "Complete contract packing services",
-      "Artwork-to-shelf private label programs",
+      "250g pouches printed with your brand",
+      "Any size packet or jar",
+      "We handle the full packing",
+      "From your artwork to the shelf",
     ],
   },
 ];
@@ -152,26 +149,26 @@ export const productTracks = [
 export const products = [
   {
     name: "BOPSM Assam CTC Black Tea",
-    meta: "Bulk · 22 kg / 35 kg sacks",
-    body: "High-grade CTC black tea delivering superior strength, bright liquor, and rich maltiness. Our core export grade.",
+    meta: "Bulk · 22 kg / 36 kg sacks",
+    body: "Our main tea. Strong taste, bright colour and a rich malty flavour.",
     image: "/images/bulk-sacks-stack.jpg",
   },
   {
     name: "250g Retail Pouches",
-    meta: "Private label · Brand-printed",
-    body: "Signature 250g consumer pouches printed to your brand artwork, packed under full contract-packing service.",
+    meta: "Private label · Your brand printed",
+    body: "250g pouches printed with your design. We print, fill and seal them for you.",
     image: "/images/retail-pouches.jpg",
   },
   {
     name: "Reusable Storage Jar",
     meta: "Retail · Air-tight screw cap",
-    body: "Reusable plastic storage jar with an air-tight red screw cap, designed for long-term freshness and convenient kitchen storage. Filled with premium CTC tea blend offering rich aroma, deep color, and strong taste.",
+    body: "A plastic jar with a red screw cap that seals tight, so the tea stays fresh. Comes filled with our CTC blend — strong taste, deep colour, good smell.",
     image: "/images/storage-jar.jpg",
   },
   {
     name: "Mixed Grade & Blend Lots",
-    meta: "Bulk · Custom sizing",
-    body: "CTC brokens, specialty green teas, and herbal infusions blended to your target cup profile and market preference.",
+    meta: "Bulk · Any size",
+    body: "CTC brokens, green teas and herbal teas, mixed to the taste your market wants.",
     image: "/images/bulk-sacks-row.jpg",
   },
 ];
@@ -181,80 +178,64 @@ export const enquiryOptions = [
   {
     id: "bulk",
     label: "Bulk CTC & Garden Supply",
-    detail: "BOPSM Assam CTC black tea · 22kg / 35kg paper & poly sacks · 20ft / 40ft HC container",
+    detail: "BOPSM Assam CTC black tea · 22kg / 35kg paper & poly sacks",
   },
   {
     id: "retail",
     label: "Retail & Private Label (OEM)",
-    detail: "250g brand-printed pouches · custom weight packets & jars · contract packing",
+    detail: "250g pouches with your brand · any size packet or jar · we do the packing",
   },
   {
     id: "jar",
     label: "Reusable Storage Jar",
-    detail: "Air-tight red screw cap jar · premium CTC tea blend, rich aroma and deep colour",
+    detail: "Red screw-cap jar that seals tight · filled with our CTC blend",
   },
 ];
 
 export const specs = {
-  columns: ["Grade / Line", "Typical format", "Export packing"],
+  columns: ["Tea", "Sold as", "Packed in"],
   rows: [
-    ["BOPSM Assam CTC Black Tea", "Bulk loose", "22 kg / 35 kg paper & poly sacks"],
-    ["CTC Brokens", "Bulk loose", "22 kg / 35 kg paper & poly sacks"],
-    ["Specialty Green Tea", "Bulk / retail", "Bulk sacks or custom retail packs"],
-    ["Herbal Infusions & Botanical Blends", "Custom blend", "Bulk sacks or custom retail packs"],
-    ["Private Label Retail", "250g pouches, packets, jars", "Brand-printed, contract packed"],
+    ["BOPSM Assam CTC Black Tea", "Loose, in bulk", "22 kg / 36 kg paper & poly sacks"],
+    ["CTC Brokens", "Loose, in bulk", "22 kg / 36 kg paper & poly sacks"],
+    ["Green Tea", "Bulk or retail", "Sacks or retail packs"],
+    ["Herbal & Botanical Blends", "Made to order", "Sacks or retail packs"],
+    ["Private Label Retail", "250g pouches, packets, jars", "Printed with your brand"],
   ],
-  footnote:
-    "Container loadability: 20ft / 40ft HC. Multi-ton trial lots through to full container loads.",
+  footnote: "Order a small trial lot or a full container — both work.",
 };
 
 export const journey = [
   {
     step: "01",
-    title: "Garden Selection",
-    body: "Strict garden-level quality selection across premier high-altitude estates in Assam.",
+    title: "Picking The Garden",
+    body: "We choose the best tea gardens in Assam and check the quality before we buy.",
   },
   {
     step: "02",
-    title: "CTC Processing",
-    body: "Fresh leaf processed under modern, hygienic standards for consistent crush-tear-curl character.",
+    title: "Processing",
+    body: "Fresh leaf goes through our clean, modern machines to make CTC tea.",
   },
   {
     step: "03",
-    title: "Grading & Sizing",
-    body: "Specialized grade sizing into BOPSM and CTC brokens for strength, liquor, and maltiness.",
+    title: "Sorting",
+    body: "We sort the tea into grades like BOPSM and brokens, based on strength and taste.",
   },
   {
     step: "04",
     title: "Blending",
-    body: "Experienced blenders build bespoke recipes to match target profiles and regional preferences.",
+    body: "Our blenders mix the tea to match the taste you want for your market.",
   },
   {
     step: "05",
     title: "Packing",
-    body: "Bulk sacks for container loads, or brand-printed retail packaging under contract packing.",
+    body: "Big sacks for container orders, or retail packs printed with your brand.",
   },
   {
     step: "06",
-    title: "Port Dispatch",
-    body: "Batch traceability and inventory control guarantee on-time dispatch and uninterrupted supply.",
+    title: "Shipping",
+    body: "We track every batch and send it to the port on time, so your supply never stops.",
   },
 ];
 
 export const vision =
-  "To connect global buyers directly to the freshest tea gardens of Assam by supplying high-volume, premium BOPSM CTC black tea, green tea, and signature blends. We accomplish this by maintaining strict quality standards, delivering seamless supply chain execution, and building transparent, long-term partnerships with commercial brand owners, importers, and distributors worldwide.";
-
-export const team = [
-  {
-    name: "Vikas Seth",
-    image: "/images/team-vikas.jpg",
-    phone: "+91 98182 04877",
-    email: "vseth1@yahoo.in",
-  },
-  {
-    name: "Vansh Seth",
-    image: "/images/team-vansh.jpg",
-    phone: "+91 95996 91577",
-    email: "vansh0409@gmail.com",
-  },
-];
+  "We want to connect buyers around the world straight to the tea gardens of Assam. We do that by supplying good quality CTC black tea, green tea and blends in large volumes — keeping the quality high, the deliveries on time, and our dealings honest and long term.";

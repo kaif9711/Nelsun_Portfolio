@@ -13,9 +13,9 @@ export default function Journey() {
         <div className="grid gap-14 lg:grid-cols-[1fr_0.85fr] lg:items-end lg:gap-20">
           <SectionHeading
             eyebrow="From Garden to Cup"
-            title="The journey of"
-            titleAccent="our tea powder."
-            intro="Six controlled stages between the leaf and your port. Each one documented, each batch traceable."
+            title="How our tea"
+            titleAccent="reaches you."
+            intro="Six steps from the leaf to your port. We keep a record at every step, so any batch can be traced back."
           />
 
           <Reveal delay={0.1}>

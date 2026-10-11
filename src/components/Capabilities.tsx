@@ -29,9 +29,9 @@ export default function Capabilities() {
       <div className="relative mx-auto max-w-[82rem] px-5 sm:px-8">
         <SectionHeading
           eyebrow="Our Service"
-          title="Six capabilities,"
-          titleAccent="one supply partner."
-          intro="From garden-level leaf selection through to brand-printed retail pouches, every stage is handled in-house — so your spec stays intact from origin to shelf."
+          title="Six things we do,"
+          titleAccent="all under one roof."
+          intro="We handle everything ourselves — from picking the leaf at the garden to printing your brand on the pouch. So nothing gets lost along the way."
         />
 
         <div className="mt-16 grid gap-px overflow-hidden rounded-sm border border-forest/12 bg-forest/12 sm:grid-cols-2 lg:grid-cols-3">

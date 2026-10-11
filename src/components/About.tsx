@@ -24,17 +24,6 @@ export default function About() {
                 />
               </div>
 
-              <div className="absolute -bottom-8 -right-4 hidden w-44 overflow-hidden rounded-sm border-4 border-paper shadow-xl sm:block lg:-right-8 lg:w-52">
-                <div className="relative aspect-[3/4]">
-                  <Image
-                    src="/images/garden-to-cup.jpg"
-                    alt="Tea plucking in an Assam garden"
-                    fill
-                    sizes="208px"
-                    className="object-cover"
-                  />
-                </div>
-              </div>
             </div>
           </Reveal>
 
@@ -42,8 +31,8 @@ export default function About() {
           <div className="order-1 lg:order-2">
             <SectionHeading
               eyebrow="About Our Business"
-              title="Vertically integrated,"
-              titleAccent="origin to container."
+              title="From the garden"
+              titleAccent="to your container."
             />
 
             <div className="mt-8 space-y-5 border-l border-forest/15 pl-6 sm:pl-8">
