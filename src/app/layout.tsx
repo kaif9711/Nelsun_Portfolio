@@ -70,7 +70,7 @@ const organisationSchema = {
     addressLocality: "Delhi",
     addressCountry: "IN",
   },
-  email: "vseth1@yahoo.in",
+  email: "vansh@nelsuntea.in",
   telephone: "+91-9818204877",
   slogan: "Global Export & Private Label Tea Solutions",
 };

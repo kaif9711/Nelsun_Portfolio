@@ -13,6 +13,7 @@ import { company, enquiryOptions } from "@/data/site";
  *   NEXT_PUBLIC_EMAILJS_SERVICE_ID
  *   NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
  *   NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+ *   NEXT_PUBLIC_ENQUIRY_RECIPIENT (optional, defaults to vansh@nelsuntea.in)
  */
 const EMAILJS = {
   serviceId: process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
@@ -20,7 +21,8 @@ const EMAILJS = {
   publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
 };
 
-const RECIPIENT = "vansh0409@gmail.com";
+const RECIPIENT =
+  process.env.NEXT_PUBLIC_ENQUIRY_RECIPIENT || "vansh@nelsuntea.in";
 
 type Status = "idle" | "sending" | "sent" | "error";
 

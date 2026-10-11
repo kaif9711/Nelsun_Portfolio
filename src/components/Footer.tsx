@@ -66,10 +66,15 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col-reverse items-start justify-between gap-6 border-t border-cream/10 pt-7 sm:flex-row sm:items-center">
-          <p className="text-xs text-cream/40">
-            © {new Date().getFullYear()} {company.legalName}. All rights
-            reserved.
-          </p>
+          <div className="space-y-1.5 text-xs text-cream/40">
+            <p>
+              GSTIN: {company.gstin} · FSSAI Lic. No.: {company.fssai}
+            </p>
+            <p>
+              © {new Date().getFullYear()} {company.legalName}. All rights
+              reserved.
+            </p>
+          </div>
           <a
             href="#top"
             className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-cream/50 transition-colors hover:text-leaf-soft"

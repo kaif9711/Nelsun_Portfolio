@@ -11,10 +11,12 @@ export const company = {
   headquarters: "Delhi, India",
   origin: "Assam, India",
   phones: ["+91 98182 04877", "+91 95996 91577"],
-  emails: ["vseth1@yahoo.in", "vansh0409@gmail.com"],
+  emails: ["vansh@nelsuntea.in"],
+  gstin: "07AREPS5058H1ZI",
+  fssai: "13315003000390",
 };
 
-export const whatsappNumber = "919818204877";
+export const whatsappNumber = "919599691577";
 
 export const navLinks = [
   { label: "About", href: "#about" },
